@@ -1,8 +1,14 @@
-### curriculum vitae (CV)
+### Curriculum Vitae (CV)
 
 My curriculum vitae (CV) written using LaTeX. In my CV, you may find my contact information, websites, education, experience, achievements, projects, and skills.
 
-### My Personal CV using Latex
-    Nama : Jonathan Oktaviano Frizzy
+> Reference [here](https://github.com/arasgungore/arasgungore-CV)
 
-    NRP : 2040221060
+### Preview
+
+<p align="center">
+    <img alt="Screenshot" src="/doc/CV-1.png" width="400">
+    <img alt="Screenshot" src="/doc/CV-2.png" width="400">
+</p>
+
+ - Linkedin : [@jonthan.o.f](linkedin.com/in/jonathan-oktaviano/)
