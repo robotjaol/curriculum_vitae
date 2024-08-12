@@ -7,9 +7,9 @@ My curriculum vitae (CV) written using LaTeX. In my CV, you may find my contact 
 ### Preview
 
 <p align="center">
-    <img alt="Screenshot" src="/doc/cv_1.jpg" width="400">
-    <img alt="Screenshot" src="/doc/cv_3.jpg" width="400">
-    <img alt="Screenshot" src="/doc/cv_2.jpg" width="400">
+    <img alt="Screenshot" src="/doc/cv_1.png" width="400">
+    <img alt="Screenshot" src="/doc/cv_3.png" width="400">
+    <img alt="Screenshot" src="/doc/cv_2.png" width="400">
 </p>
 
  - Linkedin : [@jonthan.o.f](linkedin.com/in/jonathan-oktaviano/)
