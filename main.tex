@@ -19,6 +19,7 @@
 \usepackage{tabularx}
 \usepackage{hyphenat}
 \usepackage{fontawesome}
+\usepackage{graphicx}
 \input{glyphtounicode}
 
 
@@ -129,23 +130,28 @@
 
 \begin{document}
 
-%---------- HEADING ----------
-
-\begin{center}
-    \textbf{\Huge \scshape Jonathan Oktaviano Frizzy} \\ \vspace{3pt}
-    \small
-    \faMobile \hspace{.5pt} \href{wa.me/081357473781}{+62 813 5747 3781}
-    $|$
-    \faAt \hspace{.5pt} \href{mailto:jonathanoktavianofrizzy@gmail.com}{jonathanoktavianofrizzy@gmail.com}
-    $|$
-    \faLinkedinSquare \hspace{.5pt} \href{https://linkedin.com/in/jonathan-oktaviano/}{LinkedIn}
-    $|$
-    \faGithub \hspace{.5pt} \href{https://github.com/robotjaol}{GitHub}
-    $|$
-    \faGlobe \hspace{.5pt} \href{https://robotjaol.vercel.app/}{Portfolio}
-    $|$
-    \faMapMarker \hspace{.5pt} \href{https://maps.app.goo.gl/3KcJKWS8gMk1GiZMA}{Surabaya, Indonesia}
-\end{center}
+% HEADING
+\begin{tabularx}{\textwidth}{@{}l X@{}}
+    \begin{minipage}[c][6em][t]{0.2\textwidth} % 6em adalah tinggi vertikal ruangan untuk gambar
+        \vspace{-3.em} % Ruang tambahan sebelum gambar
+        \includegraphics[width=\textwidth]{fix.jpg} % Mengatur lebar gambar agar sesuai
+    \end{minipage}
+    \hspace{5 mm} % Menambahkan spasi antara gambar dan konten di kanan
+    & \begin{tabular}{@{}l@{}}
+        \textbf{\Huge \scshape Jonathan Oktaviano Frizzy} \\[0.8em] % Jarak setelah nama
+        \faMobile \hspace{.5pt} \href{wa.me/081357473781}{+62 813 5747 3781}
+        $|$
+        \faAt \hspace{.5pt} \href{mailto:jonathanoktavianofrizzy@gmail.com}{jonathanoktavianofrizzy@gmail.com} \\[0.1em] % Mengatur jarak antara baris
+        \faLinkedinSquare \hspace{.5pt} \href{https://linkedin.com/in/jonathan-oktaviano/}{LinkedIn}
+        $|$
+        \faGithub \hspace{.5pt} \href{https://github.com/robotjaol}{GitHub}
+        $|$
+        \faGlobe \hspace{.5pt} \href{https://robotjaol.vercel.app/}{Portfolio}
+        $|$
+        \faMapMarker \hspace{.5pt} \href{https://maps.app.goo.gl/3KcJKWS8gMk1GiZMA}{Surabaya, Indonesia} \\
+    \end{tabular}
+\end{tabularx}
+\vspace{1em}
 
 %----------- EDUCATION -----------
 
@@ -265,7 +271,7 @@
         
         \textbf{LKS Nasional Mobile Robotic:}{ Secured the 3rd place by creating a robot utilizing a National Instruments controller, MyRIO, integrated with actuators such as servos and PG motors, and featuring a camera for barcode, color, and obstacle detection, serving as a hospital service robot (Oct 2022)} \\ \vspace{3pt}
         
-        \textbf{SMK Sore Tulungagung Award:}{ Graduated as the highest ranked student.(Jun 2022)}
+        % \textbf{SMK Sore Tulungagung Award:}{ Graduated as the highest ranked student.(Jun 2022)}
     }}}}
 \resumeSubHeadingListEnd
 
@@ -344,11 +350,11 @@
 \section{Organizations}
   \resumeSubHeadingListStart
 
-    \resumeOrganizationHeading
-      {UKM Robotika ITS}{Oct 2022 -- Present}{Member}
+    % \resumeOrganizationHeading
+    %   {UKM Robotika ITS}{Oct 2022 -- Present}{Member}
       
     \resumeOrganizationHeading
-      {Barunastra ITS}{Dec 2022 -- Present}{Staff Electrical Division}
+      {Barunastra ITS}{Dec 2022 -- Present}{Expert Staff Electrical Division}
 
     \resumeOrganizationHeading
       {Bioinformatics Study Club ITS}{May 2024 -- Present}{Vice Chairman}
